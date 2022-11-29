@@ -1,8 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Parcel Tracker Application
 
-## Getting Started
+This is a application built with [Next.js](https://nextjs.org/), [Appwrite](https://appwrite.io/), and [Tailwind CSS](https://tailwindcss.com/) for tracking parcels in **real-time**.
 
-First, run the development server:
+## Setting up the project on Appwrite
+This involves the following:
+  - Creating a database and collections.
+  - Adding attributes to the collections.  
+  - Creating an Index to query the data from the collection.
+  - Setting Collection persmissions
+  
+## Setting Environment Variables
+Building the project required the use of some environment variables, remember to include in your cloned project. They include:
+- API Endpoint URL
+- Database ID
+- Parcels Collection ID
+- Project ID
+
+## Running the Project
+To run the project in development environment, you can run the following commands:
 
 ```bash
 npm run dev
@@ -10,7 +25,8 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Viewing the Project 
+To view the project on your browser, use this URL - [http://localhost:3000](http://localhost:3000).
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
